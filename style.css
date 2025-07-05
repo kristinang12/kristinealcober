@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.try-login{
+    
+    padding: 5%;
+}
+.login-section{
+    margin-left: 25%;
+    width: 80%;
+    height: 100vh;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.loginform{
+    border: solid;
+    padding: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.login-header{
+    color: palevioletred;
+}
+
+/* Input styling */
+.loginform input {
+    background-color: inherit;
+    padding: 20px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn {
+    margin-top: 2%;
+    width: 40%; /* fixed width */
+    padding: 10px;
+    color: rgb(123, 10, 72);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+.submit-btn:hover{
+    color: #d8d0d6;
+    background-color: rgb(121, 21, 81);
+}
+
+.home-section {
+    margin-left: 25%;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Aligns items to the bottom of the section */
+    padding: 2%;
+}
+
+
+.home-content{
+    padding: 10%;
+}
+.home-section a{
+    list-style: none;
+    text-decoration: none;
+}
+.joinnow {
+    background: linear-gradient(to right, rgb(79, 16, 118), rgb(128, 30, 89));
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-right: 5%;
+
+}
+
+.joinnow a{
+    color: #ffffff;
+}
+
+.landing-page{
+    background: linear-gradient(to right, rgb(79, 16, 118), rgb(223, 123, 183));
+    width: 20%;
+    height: 100vh;
+    padding: 1%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: x-large;
+    color: rgb(250, 250, 250);
+}
+.navbar{
+    width: 80%;
+}
+.navbar-header img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rebeccapurple;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style: none;
+    justify-content: center;
+   
+}
+
+.navbar-list li{
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar-list a{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 20%;
+    text-decoration:  none;
+    
+}
+
+.navbar-list img{
+    width: 30%;
+}
+
+.sideline{
+    margin-left: 23%;
+    padding: .5%;
+    background: linear-gradient(to right, rgb(79, 16, 118), rgb(223, 123, 183));
+    height: 100vh;
+    position: fixed;
+}
+
+
+.about-section {
+    margin-left: 25%;
+    padding: 2%;
+    width: 100%;
+}
+
+
+.about-line{
+    background: linear-gradient(to right, rgb(79, 16, 118), rgb(223, 123, 183));
+    padding: .5%;
+    border-radius: 30%;
+
+}
+.personalheader{
+    margin-top: 2%;
+    border: solid;
+    padding-left: 2%;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2%;
+}
+.personallevel{
+    display: flex;
+    width: 100%;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2%;
+}
+
+.pl-column1{
+    width: 50%;
+    padding: 1%;
+}
+.pl-column2{
+    width: 50%;
+    padding: 1%;
+}
+.row1{
+    margin: 1%;
+    padding: 1%;
+    border: solid;
+    display: flex;
+}
+
+.row2{
+    margin: 1%;
+    padding: 1%;
+    border: solid;
+    display: flex;
+}
+.label{
+    width: 20%;
+}
+.label2{
+    width: 20%;
+}
+
+
+.educationheader{
+    border: solid;
+    padding-left: 2%;
+}
+.e-content{
+    padding: 1%;
+}
+.college{
+    padding: 1%;
+    border: solid;
+    margin: 1%;
+}
+.seniorhigh{
+    padding: 1%;
+    border: solid;
+    margin: 1%;
+}
+
+/**Portfolio Section */
+.portfolio-section{
+    margin-left: 25%;
+    width: 100%;
+    height: 100%;
+}
+
+.p-content{
+    padding: 2%;
+    
+}
+.pline{
+    background: linear-gradient(to right, rgb(79, 16, 118), rgb(223, 123, 183));
+    padding: .5%;
+    border-radius: 40%;
+}
+
+.GraphicsDesign{
+    padding: 5%;
+}
+
+
+.GD-header{
+    border: solid;
+    padding: 1%;
+}
+.GD-content{
+    border: solid;
+    display: flex;
+    padding: 5%;
+    gap: 20px;
+}
+
+.WebDev{
+    padding: 5%;
+}
+.WD-header{
+    border: solid;
+    padding: 1%;
+}
+.WD-content{
+    padding: 5%;
+    display: flex;
+    gap: 10px;
+}
+.gd-img{
+    border: solid;
+    padding: 1%;
+}
+.wd-img{
+    border: solid;
+    padding: 1%;
+}
+
+/*Services Section*/
+
+.services-section{
+    width: 100%;
+    margin-left: 25%;
+    align-items: center;
+    padding: 2%;
+}
+
+.sline{
+    border: solid;
+
+}
+
+.services-content{
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 20px;
+    
+}
+.services-content > * {
+    flex: 0 1 calc(50% - 10px); /* Two columns with spacing */
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+
+.services-wd{
+    border: solid;
+    padding: 1%;
+
+}
+
+.services-wd-header{
+    border: solid;
+    padding-left: 2%;
+}
+
+.services-wd-content{
+    border: solid;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.services-gd{
+    border: solid;
+    padding: 1%;
+}
+.services-gd-header{
+    border: solid;
+    padding-left:2%;
+}
+.services-gd-content{
+    border: solid;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.services-mockups{
+    border: solid;
+    padding: 1%;
+}
+.services-mockups-header{
+    border: solid;
+    padding-left:2%;
+}
+.services-mockups-content{
+    border: solid;
+    padding-left: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.services-others{
+    margin: 1%;
+    border: solid;
+    padding: 1%;
+}
+.services-others-header{
+    border: solid;
+    padding-left: 2%;
+}
+.services-others-content{
+    border: solid;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+/*contact section*/
+.contact-section{
+    margin-left: 25%;
+    width: 100%;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+
+}
+.contact-header{
+    border-radius: 50%;
+    padding: .5%;
+    background: linear-gradient(to right, rgb(79, 16, 118), rgb(223, 123, 183));
+
+}
+
+.contact-content{
+    display: flex;
+    width: 80%;
+    padding: 5%;
+    gap: 20px;
+}
+
+
+.contactform{
+    border: solid;
+    width: 50%;
+    padding: 2%;
+    box-shadow: 2px 5px 5px rgb(123, 18, 118);
+}
+input{
+    background-color: inherit;
+    border: solid;
+    width: 100%;
+    font-size: 16px;
+    height: 5vh;
+}
+textarea{
+    background-color: inherit;
+    border: solid;
+    width: 100%;
+    height: 20vh;
+}
+
+.socialaccounts{
+    gap: 10px;
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.sa{
+    width: 100%;
+
+}
+.sa img{
+    width: 10%;
+    height:  10%;
+}
+.sa a{
+    margin-left: 10%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    
+}
