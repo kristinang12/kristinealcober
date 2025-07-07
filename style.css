@@ -149,21 +149,24 @@ body{
 }
 .personal-content{
     display: flex;
+
 }
 .column{
-    width: 60%;
+    width: 50%;
+}
+.rows {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* Makes it wrap on small screens */
+  border: 1px solid #ccc;
+  margin: 5%;
+  padding: 2%;
 }
 
-.rows{
-    margin: 4%;
-    display: flex;
-    border: solid;
-    padding-left: 5% ;
-    
-}
-.label{
+.label {
     width: 20%;
 }
+
 
 .about-content-education{
     border: solid;
@@ -175,7 +178,8 @@ body{
     font-size: 2vb;
 }
 .education-content-row{
-    border: solid;
+    border: 1px solid;
     margin: 4%;
+
     padding-left: 2%;
 }
