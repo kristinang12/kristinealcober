@@ -191,23 +191,25 @@ body{
 
 /*Portoflio*/
 .portfolio-section{
-    border: solid;
+    color: rgb(244, 244, 244);
     width: 100%;
     padding: 2%;
     background: linear-gradient(to right, rgb(95, 60, 12), rgb(9, 9, 13));
 }
-.p-content{
-    border: solid;
+
+.p-line{
+    border: solid white;
 }
 .GraphicsDesign{
-    border: solid;
     padding: 2%;
+    padding-left: 5%;
 }
 .GD-header{
+    padding-left: 5%;
     border: solid;
 }
 .GD-content{
-    border: solid;
+    padding-left: 5%;
     box-shadow: 2px 3px 10% wheat;
     padding: 5%;
     display: flex;
@@ -236,15 +238,18 @@ body{
 
 }
 .gd-img{
-    border: solid;
-    background-color: rgb(94, 55, 8);
-    padding: 2%;
-    color: white;
+    margin: 0;
 }
 
-.gd-img:hover{
+.gd-img1{
     border: solid;
-    background-color: antiquewhite;
+    padding: 5%;
+}
+.gd-img1:hover{
+    border: solid;
+    width: 100%;
+    color: wheat;
+    background-color: rgb(0, 0, 0);
     transform: scale(1.05); /* slightly enlarges */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* adds depth */
 
@@ -259,39 +264,101 @@ body{
     width: 10%;
     height: 10%;
 }
-/*To enlarge image*/
-.thumb {
-  width: 150px;
-  border: 1px solid #aaa;
-  background-color: #ccc; /* Helps preview white images */
-  cursor: pointer;
+
+/*Portfolio Web Development*/
+
+.WebDev{
+  
+    padding: 2%;
+    padding-left: 5%;
+}
+.WD-header{
+    padding-left: 5%;
+    border: solid;
+}
+.WD-content{
+    box-shadow: 2px 3px 10% wheat;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
 }
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.9);
+.wd-img{
+    margin: 0;
 }
 
-.modal-content {
-  display: block;
-  margin: 80px auto;
-  max-width: 90%;
+.wd-img1{
+    border: solid;
+    padding: 5%;
+}
+.wd-img1:hover{
+    border: solid;
+    width: 100%;
+    color: wheat;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05); /* slightly enlarges */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* adds depth */
+
+}
+.wd-img a{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2%;
+}
+.wd-linkicon img{
+    width: 10%;
+    height: 10%;
 }
 
-.close-btn {
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
+/*Services*/
+.service-section{
+    border: solid;
+    width: 100%;
+    color: #ffffff;
+    padding: 5%;
+    background: linear-gradient(to right, black, rgb(73, 45, 5));
+    margin-left: 2%;
 }
-.modal {
-  background-color: rgba(0, 0, 0, 0.9); /* nearly black */
+.s-header{
+    width: 100%;
+}
+.s-line{
+    padding:1%;
+    background: white;
+}
+.s-content{
+
+    width: 80%;
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.s-contents{
+    margin: 2%;
+    width: 40%;
+    
+
+
+    
+}
+.s-contents-header{
+    border: solid;
+    padding: 2%;
+    justify-content: center;
+ 
+}
+.s-contents-header h1{
+    text-align: center;
+ 
+}
+.s-contents-content{
+    border: solid;
+    margin-left: 2%;
+    margin-right: 2%;
 }
